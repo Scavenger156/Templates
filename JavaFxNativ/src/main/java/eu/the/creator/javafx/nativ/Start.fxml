@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.45" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eu.the.creator.javafx.nativ.StartController">
+   <children>
+      <Label layoutX="224.0" layoutY="211.0" text="Hello world" />
+      <Button fx:id="btnExcepetion" layoutX="150.0" layoutY="80.0" mnemonicParsing="false" onAction="#actionMakeException" text="Exception" />
+   </children>
+</AnchorPane>
